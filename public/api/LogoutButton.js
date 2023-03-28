@@ -11,3 +11,4 @@ class LogoutButton {
     this.action();
   }
 }
+

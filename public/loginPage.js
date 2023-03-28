@@ -1,6 +1,6 @@
 'use stict'
 
-let userForm = new UserForm;
+let userForm = new UserForm();
 
-userForm.loginFormCallback = data => console.log(data);
-userForm.registerFormCallback = data => console.log(data);
+userForm.loginFormCallback = data => ApiConnector.login(data, location.reload);
+userForm.registerFormCallback = data => ApiConnector.register(data, console.log);
