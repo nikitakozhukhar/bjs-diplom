@@ -2,5 +2,14 @@
 
 let userForm = new UserForm();
 
-userForm.loginFormCallback = data => ApiConnector.login(data, location.reload);
-userForm.registerFormCallback = data => ApiConnector.register(data, console.log);
+userForm.loginFormCallback = data => ApiConnector.login(data, response => {
+	if (response) {
+		location.reload();
+	}
+});
+
+userForm.registerFormCallback = data => ApiConnector.register(data, response => {
+	if (response) {
+		location.reload();
+	}
+});
