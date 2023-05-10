@@ -108,6 +108,18 @@
         "EUR": 0,
         "NTC": 0
       }
+    },
+    {
+      "created_at": "2023-05-10T07:42:50.964Z",
+      "login": "qwerty",
+      "password": "qwerty",
+      "id": 10,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
     }
   ],
   "favorites": {
