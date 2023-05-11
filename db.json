@@ -6,10 +6,10 @@
       "password": "demo",
       "id": 1,
       "balance": {
-        "RUB": 1000,
+        "RUB": 1160.175084175084,
         "USD": 20,
-        "EUR": 20,
-        "NTC": 3000
+        "EUR": 104.23387054990029,
+        "NTC": 3100
       }
     },
     {
@@ -19,7 +19,7 @@
       "id": 2,
       "netocoins": 100,
       "balance": {
-        "RUB": 20,
+        "RUB": 21,
         "USD": 0,
         "EUR": 0,
         "NTC": 100
@@ -114,6 +114,18 @@
       "login": "qwerty",
       "password": "qwerty",
       "id": 10,
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2023-05-11T11:27:17.293Z",
+      "login": "tyui",
+      "password": "tyui",
+      "id": 11,
       "balance": {
         "RUB": 0,
         "USD": 0,
